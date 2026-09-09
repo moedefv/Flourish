@@ -109,4 +109,4 @@ playButtonObject:Disconnect("Lift", "All") -- stops the play button from being a
 
 ## Version
 
-**v0.1.0**
+**v1.0.0**
