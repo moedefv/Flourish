@@ -1,14 +1,14 @@
-<sub>Credits to **@AlexanderLindholt** for creating **[Tween+](https://devforum.roblox.com/t/v2-tween-advanced-performant-tweening/3599638)** and **[Signal+](https://devforum.roblox.com/t/signal-super-fast-elegant-signals/3552231)**, which helped make Flourish faster and more optimized.</sub>
+<sub>Credits to **[@AlexanderLindholt](devforum.roblox.com/u/AlexanderLindholt/)** for creating **[Tween+](https://devforum.roblox.com/t/v2-tween-advanced-performant-tweening/3599638)** and **[Signal+](https://devforum.roblox.com/t/signal-super-fast-elegant-signals/3552231)**, which helped make Flourish faster and more optimized.</sub>
 
 # Flourish
 
-Flourish is a lightweight Roblox GUI effects library designed to help make your interfaces feel a lot more polished.
+Flourish is a lightweight Roblox GUI effect library designed to help make your interfaces feel a lot more polished.
 
 ## Features
 
 * **Stackable Effects** - Combine multiple effects on the same element
 * **Customizable** - Configure effect strength and offsets
-* **Tween-Based** - Smooth animations powered by Tween+
+* **Tween Based** - Smooth animations powered by [Tween+](https://devforum.roblox.com/t/v2-tween-advanced-performant-tweening/3599638)
 
 ## Installation
 
@@ -22,7 +22,7 @@ Download Flourish, extract into RBXM, then drag the file in studio. Place it in 
 
 ## Usage
 
-Require Flourish and create a Flourish object from a `GuiObject`:
+Require Flourish and create an object from a `GuiObject`:
 
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -44,9 +44,11 @@ buttonObject:Lift()
 -- effects like Pulse and Lift are non dynamic, meaning you are not supposed to pass in anything for them because they're automatically set up
 -- you can tell an effect is non dynamic by looking at the autocomplete
 ```
-
 Effects like Pulse and Lift are non dynamic, meaning you are not supposed to pass in anything for them since they're automatically set up.
 You can tell an effect is non dynamic by looking at the autocomplete, as shown below.
+
+<img width="610" height="134" alt="image" src="https://github.com/user-attachments/assets/bdb094d3-f150-4891-8515-d6659bdcb0b6" />
+<img width="797" height="108" alt="image" src="https://github.com/user-attachments/assets/c4ad9dce-baab-47f7-87f9-f02842e8523b" />
 
 Effects can be combined and stacked together. For example, hovering while clicking can apply both Expand effects simultaneously if you do this:
 
