@@ -18,7 +18,7 @@ Add Flourish to your inventory, then insert it into your experience through the 
 
 ### [Download](https://github.com/user-attachments/files/31971523/Flourish.zip)
 
-Download Flourish, extract into RBXM, then drag the file in studio. Place it in `ReplicatedStorage`.
+Download Flourish.zip above, extract into RBXM, then drag the file in studio. Place it in `ReplicatedStorage`.
 
 ## Usage
 
@@ -82,7 +82,7 @@ Creates a new Flourish object for a `GuiObject`.
 local buttonObject = Flourish.new(button)
 ```
 
-### `:effect(connectionType)`
+### `:[effectName](connectionType)`
 
 Adds an effect of your choice, with a required connection type (unless the effect is non-dynamic. you can tell by looking at the autocomplete)
 
@@ -93,8 +93,20 @@ Disconnects a specific effect connection or all connections for an effect.
 ```lua
 buttonObject:Disconnect("Expand", "Hover") -- stops the button from expanding when you hover over it
 buttonObject:Disconnect("Expand", "All") -- stops the button from expanding at all
+-- OR --
+buttonObject:Disconnect("All")
+```
+
+### `:GetElement(name)`
+
+Returns an element's object that was previously created with .new()
+
+```lua
+local playButtonObject = Flourish:GetElement("PlayButton")
+
+playButtonObject:Disconnect("Lift", "All") -- stops the play button from being animated, from a different script
 ```
 
 ## Version
 
-**v0.1**
+**v0.1.0**
