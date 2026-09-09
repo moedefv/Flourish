@@ -4,6 +4,8 @@
 
 Flourish is a lightweight Roblox GUI effect library designed to help make your interfaces feel a lot more polished.
 
+<sub> Please make sure to give feedback/a review on the [Creator Hub asset](https://create.roblox.com/store/asset/110208100777922/Flourish)! </sub>
+
 ## Features
 
 * **Stackable Effects** - Combine multiple effects on the same element
