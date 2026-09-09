@@ -43,8 +43,7 @@ buttonObject:Shake("Click")
 
 buttonObject:Pulse()
 buttonObject:Lift()
--- effects like Pulse and Lift are non dynamic, meaning you are not supposed to pass in anything for them because they're automatically set up
--- you can tell an effect is non dynamic by looking at the autocomplete
+-- Pulse and Lift are non dynamic, no arguments
 ```
 Effects like Pulse and Lift are non dynamic, meaning you are not supposed to pass in anything for them since they're automatically set up.
 You can tell an effect is non dynamic by looking at the autocomplete, as shown below.
