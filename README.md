@@ -1,6 +1,6 @@
 <sub>Credits to **[@AlexanderLindholt](devforum.roblox.com/u/AlexanderLindholt/)** for creating **[Tween+](https://devforum.roblox.com/t/v2-tween-advanced-performant-tweening/3599638)** and **[Signal+](https://devforum.roblox.com/t/signal-super-fast-elegant-signals/3552231)**, which helped make Flourish faster and more optimized.</sub>
 
-# Flourish
+# <img width="30" height="30" alt="FlourishIcon" src="https://github.com/user-attachments/assets/1cfef5da-a521-4758-bca9-c70b97840e17" /> Flourish
 
 Flourish is a lightweight Roblox GUI effect library designed to help make your interfaces feel a lot more polished.
 
